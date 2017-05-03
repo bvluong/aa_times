@@ -1,1 +1,39 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+#gear-dropdown {
+  position: relative
+}
+
+.gear-dropdown {
+  background-color: white;
+  font-size: 10px;
+  // height: 100px;
+  width: 200%;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-family: $sans-serif;
+  padding: 5px;
+
+
+}
+
+.editions {
+  font-size: 8px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.dropdown-subtitle {
+  font-weight: bold;
+}
+
+.gear-dropdown li{
+  padding: 5px;
+  padding-left: 0px;
+}
+
+#gear-dropdown-btn > ul{
+  position: absolute;
+  top: 40px;
+  right:180px;
+}
