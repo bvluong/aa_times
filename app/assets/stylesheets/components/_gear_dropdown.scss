@@ -5,7 +5,7 @@
 }
 
 .gear-dropdown {
-  background-color: white;
+  background: white;
   font-size: 10px;
   // height: 100px;
   width: 200%;
@@ -13,7 +13,7 @@
   border: 1px solid grey;
   font-family: $sans-serif;
   padding: 5px;
-
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
 
 }
 
@@ -21,10 +21,14 @@
   font-size: 8px;
   color: gray;
   text-transform: uppercase;
+  border-bottom: 1px solid $light-gray;
 }
 
 .dropdown-subtitle {
   font-weight: bold;
+  font-size: 8px;
+  color: gray;
+  text-transform: uppercase;
 }
 
 .gear-dropdown li{
@@ -35,5 +39,16 @@
 #gear-dropdown-btn > ul{
   position: absolute;
   top: 40px;
-  right:180px;
+  right:80px;
+}
+
+.editions li:hover {
+  background: $light-gray;
+  color: black;
+}
+
+
+.help li {
+  color: #6a9bc3;
+  font-size: 9px;
 }
